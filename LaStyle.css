@@ -1,0 +1,57 @@
+body {
+    padding: 15px;
+    background-color: #c9c9c9;
+}
+
+.friend-card {
+    display: inline-block;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    margin: 6px;
+    background-color: whitesmoke;
+}
+
+.friend-avatar {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 4px;
+}
+
+.span-1,
+.span-2 {
+    display: block;
+    margin-left: 10px;
+}
+
+.span-1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.span-2 {
+    color: #686262;
+}
+
+.addfriend-button {
+    margin: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+    background-color: rgb(79, 121, 199);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+    transition: opacity 150ms;
+    
+}
+
+.addfriend-button:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.addfriend-button:active {
+    cursor: progress;
+    opacity: 0.65;
+}
+
