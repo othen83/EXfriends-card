@@ -1,1 +1,1 @@
-# EXfriends-card
+# EX:friends-card
